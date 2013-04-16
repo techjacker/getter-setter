@@ -1,0 +1,22 @@
+{
+  "name": "getter-setter",
+  "version": "0.0.1",
+  "description": "set and get decoration for objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "tap ./test"
+  },
+  "repository": "git@github.com:techjacker/getter-setter.git",
+  "keywords": [
+    "errors"
+  ],
+  "author": "andrew griffiths",
+  "license": "BSD",
+  "devDependencies": {
+    "tap": "~0.4.1",
+    "underscore": "~1.4.4"
+  },
+  "dependencies": {
+    "underscore": "~1.4.4"
+  }
+}
