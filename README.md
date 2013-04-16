@@ -25,9 +25,9 @@ var obj = {
 decorate(obj);
 
 // outputs "world"
-console.log("obj.get('hello')");
+console.log(obj.get('hello'));
 
 // outputs "bye"
-console.log("obj.set('hello', 'bye')");
-console.log("obj.get('hello')");
+console.log(obj.set('hello', 'bye'));
+console.log(obj.get('hello'));
 ```
