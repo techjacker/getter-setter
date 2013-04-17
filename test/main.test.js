@@ -5,7 +5,9 @@ var _    = require('underscore'),
 test('main.js exports', function(t) {
 
 	t.ok(_.isFunction(main.extend), 'main.extend exports a function');
+	t.ok(_.isFunction(main.node), 'main.extend exports a function');
 	t.ok(_.isFunction(main.proto), 'main.proto exports a function');
+	t.ok(_.isFunction(main.browser), 'main.proto exports a function');
 	t.end();
 });
 
@@ -41,3 +43,7 @@ test('decorate.extend: getter works', getTest(main.extend));
 test('decorate.proto: getter works', getTest(main.proto));
 test('decorate.extend: setter works', setTest(main.extend));
 test('decorate.proto: setter works', setTest(main.proto));
+test('decorate.browser: getter works', getTest(main.browser));
+test('decorate.node: getter works', getTest(main.node));
+test('decorate.browser: setter works', setTest(main.browser));
+test('decorate.node: setter works', setTest(main.node));
