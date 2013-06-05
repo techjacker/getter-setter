@@ -5,9 +5,9 @@ var _    = require('underscore'),
 test('main.js exports', function(t) {
 
 	t.ok(_.isFunction(main.extend), 'main.extend exports a function');
-	t.ok(_.isFunction(main.node), 'main.extend exports a function');
+	t.ok(_.isFunction(main.node), 'main.node exports a function');
 	t.ok(_.isFunction(main.proto), 'main.proto exports a function');
-	t.ok(_.isFunction(main.browser), 'main.proto exports a function');
+	t.ok(_.isFunction(main.browser), 'main.browser exports a function');
 	t.end();
 });
 
